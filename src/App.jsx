@@ -1,6 +1,6 @@
 
 import styles from  './App.module.css'
-import { About } from './components/About/About'
+import { Skills } from './components/Skills/Skills'
 import { Contact } from './components/Contact/Contact'
 import { Experience } from './components/Experience/Experience'
 import { Hero } from './components/Hero/Hero'
@@ -14,8 +14,8 @@ function App() {
     <div className={styles.App}>
       <Navbar />
       <Hero />
+      <Skills />
       <Experience />
-      <About />
       <Projects />
       <Contact />
     </div>

@@ -14,7 +14,7 @@ export const Hero = () => {
 
     <img src={getImageUrl('hero/heroImage.png')} alt="Hero" className={styles.heroImg}/>
     <div className={styles.topBlur}></div>
-    <div className={styles.bottomBlur}></div>
+    {/* <div className={styles.bottomBlur}></div> */}
   </section>
   );
 }

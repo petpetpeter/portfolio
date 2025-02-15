@@ -3,6 +3,7 @@
 .container {
   margin-top: 76px;
   color: var(--color-text);
+  background-color: var(--color-background);
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -18,9 +19,22 @@
   margin-top: 37px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   gap: 15px;
   width: 100%;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  scroll-snap-type: x mandatory; /* Optional for snapping behavior */
+  padding: 15px 0 30px 15px; /* Add extra bottom padding for scrollbar spacing */
+}
+
+.projects::-webkit-scrollbar {
+  height: 8px; /* Adjust scrollbar height */
+}
+
+.projects::-webkit-scrollbar-thumb {
+  background: var(--color-text); /* Style the scrollbar thumb */
+  border-radius: 4px;
+}
+
+.projects::-webkit-scrollbar-track {
+  background: var(--color-background); /* Style the scrollbar track */
 }

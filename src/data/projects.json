@@ -1,18 +1,22 @@
 [
-    {
-      "title": "Tomato Harvesting Robot",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    }
-  ]
+  {
+    "title": "AR User Interface for robot teleoperation",
+    "imageSrc": "projects/ar_mani.gif",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node", "Sass"],
+    "links": [
+      { "name": "demo", "url": "https://youtu.be/3VIn8AoUoMw" },
+      { "name": "paper", "url": "https://ieeexplore.ieee.org/document/9863385" }
+    ]
+  },
+  {
+    "title": "project2",
+    "imageSrc": "projects/ar_mani.gif",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node", "Sass"],
+    "links": [
+      { "name": "demo", "url": "https://youtu.be/3VIn8AoUoMw" },
+      { "name": "github", "url": "https://github.com" }
+    ]
+  }
+]
