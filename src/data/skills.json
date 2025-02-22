@@ -24,14 +24,14 @@
       "title": "Docker",
       "imageSrc": "skills/docker.png",
       "tags":[
-        "sensor driver","embedded","controller"
+        "docker compose","kubernetes"
       ]
     },
     {
       "title": "ROS 2",
       "imageSrc": "skills/ros2.png",
       "tags":[
-        "api","websocket","computer vision","ml"
+        "Navigation","Simulation","ml"
       ]
     }
   ]

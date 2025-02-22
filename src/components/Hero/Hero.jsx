@@ -7,12 +7,12 @@ export const Hero = () => {
   <section className={styles.container}>
 
     <div className={styles.content}>
-    <h1 className={styles.title}>Hi, I'm Peter</h1>
-    <p className={styles.description}>My portfolio <strong></strong> for <strong></strong></p>
-    <a href="mailto:chana.pol.peter@gmail.com" className={styles.contactBtn}>Contact Me</a>
+    <h1 className={styles.title}>Hi, I'm Peter </h1>
+    <p className={styles.description}> Robotic Software Engineer specializing in AI-powered perception and web-based control interfaces. <strong></strong> <strong></strong></p>
+    <a href="#contact" className={styles.contactBtn}>Contact Me</a>
     </div>
 
-    <img src={getImageUrl('hero/heroImage.png')} alt="Hero" className={styles.heroImg}/>
+    <img src={getImageUrl('hero/me.jpeg')} alt="Hero" className={styles.heroImg}/>
     <div className={styles.topBlur}></div>
     {/* <div className={styles.bottomBlur}></div> */}
   </section>

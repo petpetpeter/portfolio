@@ -7,7 +7,7 @@
   background: linear-gradient(145deg, var(--color-secondary), var(--color-third));
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 345px;
+  max-width: 450px;
 }
 
 .container:hover {
@@ -29,16 +29,19 @@
   margin-top: 6px;
   font-size: 20px;
   font-weight: 400;
+  margin-bottom: 26px;
 }
 
 .skills {
   width: 100%;
-  margin-top: 14px;
+  margin-top: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
+  justify-content: space-around;
+
 }
 
 .skill {
