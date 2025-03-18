@@ -23,13 +23,11 @@
 }
 
 .skills {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 37px;
-    align-items: center;
+    align-items: stretch; /* Ensures all skill items have equal height */
     justify-content: center;
-    
 }
 
 .skill {

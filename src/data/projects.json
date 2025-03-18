@@ -13,10 +13,19 @@
     "title": "Tomato Harvesting Robot",
     "imageSrc": "projects/tomato.gif",
     "description": "Using a AI model and integrates RGB-D images to calculate their positions for precise robotic manipulation and picking.",
-    "skills": ["Pytorch", "OpenCV", "Nav2"],
+    "skills": ["YOLO", "OpenCV", "Nav2"],
     "links": [
       { "name": "demo", "url": "https://www.youtube.com/watch?v=jX2b5YjPJX8" },
       { "name": "github", "url": "https://github.com/petpetpeter/Yolor-ROS" }
+    ]
+  },
+  {
+    "title": "Self-driving car with Reinforcement Learning",
+    "imageSrc": "projects/car.gif",
+    "description": "Developed a self-driving car simulation environment and trained an autonomous agent using the Proximal Policy Optimization (PPO) algorithm from Stable-Baselines3.",
+    "skills": ["Pytorch", "RL","Simulation"],
+    "links": [
+      { "name": "github", "url": "https://github.com/SornsiriP/Self-Driving-car" }
     ]
   }
 ]
