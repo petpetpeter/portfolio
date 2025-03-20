@@ -16,10 +16,28 @@
 }
 
 .projects {
-  margin-top: 37px;
   display: flex;
-  flex-direction: row;
-  gap: 15px;
-  width: 100%;
-  padding: 15px 0 30px 15px; /* Add extra bottom padding for scrollbar spacing */
+  flex-wrap: wrap;
+  gap: 37px;
+  align-items: stretch; /* Ensures all skill items have equal height */
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 830px) {
+  .title {
+      font-size: 30px;
+  }
+
+  .content {
+      flex-direction: column;
+  }
+
+  .projects {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+  }   
 }

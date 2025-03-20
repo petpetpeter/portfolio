@@ -61,6 +61,8 @@
   .menuBtn {
     display: block;
     cursor: pointer;
+    filter: invert(43%) sepia(95%) saturate(746%) hue-rotate(180deg); /* Adjust color */
+    transition: filter 0.3s ease;
   }
 
   .menuItems {
@@ -69,11 +71,10 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 55, 109);
     background: linear-gradient(
       0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
+      var(--color-secondary) 0%,
+      var(--color-secondary) 100%
     );
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);

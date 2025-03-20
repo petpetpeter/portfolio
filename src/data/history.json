@@ -4,11 +4,12 @@
       "organisation": "ROVULA (THAILAND) CO., LTD",
       "startDate": "April, 2023",
       "endDate": "Present",
-      "experiences": ["Implemented Docker containerization for wrapping ROS2 packages, significantly reducing deployment time and streamlining testing and production processes.",
-      "Extended the functionality of the React and TypeScript-based robot web UI by integrating new features, enhancing user experience and capabilities.",
-      "Utilized MQTT protocol to establish seamless data transmission between the AWS cloud infrastructure and the local robot, enhancing communication efficiency and data exchange reliability."
+      "experiences": ["Developed software solutions for underwater pipeline inspection robots, focusing on robotic perception, containerized ROS2 applications and web-based control interfaces.",
+      "Integrated ML-based detection pipelines, including point cloud processing for object tracking and an autonomous docking system using sonar image processing.",
+      "Implemented Docker containerization for wrapping ROS2 packages, significantly reducing deployment time and integration testing and production processes.",
+      "Built a Web UI with React Leaflet to create and manage waypoints on a map, persisting data in MongoDB, and used WebSocket to visualize the robot's position in real time."
     ],
-      "tags": ["Python", "TypeScript", "ONNX", "TensorRT", "Azure", "Docker", "Kubernetes"],
+      "tags": ["Docker", "React", "MongoDB", "OpenCV", "Pytorch", "Python", "C++"],
       "imageSrc": "experiences/rov.png"
     },
     {
@@ -16,9 +17,10 @@
       "organisation": "Dynamic Intelligence Asia",
       "startDate": "October, 2023",
       "endDate": "March, 2023",
-      "experiences": ["Optimized human detection performance for operator monitoring software by converting the model to ONNX and using ONNX-Runtime for inferencing with TensorRT.",
+      "experiences": ["Worked on AI-powered monitoring systems, optimizing human detection models and implementing backend services for data processing.",
+      "Optimized human detection performance for operator monitoring software by converting the model to ONNX and using ONNX-Runtime for inferencing with TensorRT.",
       "Created a backup and retention service using Python scheduling and TypeScript for CRUD operations, that regularly backed up record data from databases as CSV files in blob storage."],
-      "tags": ["Python", "TypeScript", "ONNX", "TensorRT", "Azure", "Docker", "Kubernetes"],
+      "tags": ["Docker", "FastAPI",  "NestJS", "OpenCV", "Pytorch", "Python", "TypeScript"],
       "imageSrc": "experiences/dia.png"
     },
     {
